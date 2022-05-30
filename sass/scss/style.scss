@@ -1,0 +1,39 @@
+@import "mixins.scss";
+@import "portfolio.scss";
+@import "effect.scss";
+@import "cta.scss";
+@import "variables.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "download.scss";
+@import "features.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../../img/image-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
